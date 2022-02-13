@@ -1,0 +1,187 @@
+.clock-face {
+    border: 2px solid red;
+}
+.work::after {
+    box-shadow: 0 0 20px #00A65A;
+}
+.notWork::after {
+    box-shadow: 0 0 20px #FFC107;
+}
+.sleep::after {
+    box-shadow: 0 0 20px #DC3545;
+}
+section {
+    transform: scale(0.5);
+    width: 320px;
+    height: 320px;
+    background: #fff url('https://images.unsplash.com/photo-1601662528567-526cd06f6582?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3358&q=80') center center;
+    border: 12px solid #000;
+    border-radius: 50%;
+    margin-top: 12px;
+    box-shadow:
+            inset 40px 40px 90px rgba(0,0,0,.2),
+            inset 10px 10px 30px rgba(0,0,0,.5),
+            20px 20px 30px rgba(0,0,0,.4),
+            40px 40px 60px rgba(0,0,0,.4);
+    position: relative;
+    z-index: 1;
+}
+
+section:before {
+    content: '';
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    display: block;
+    background: transparent;
+    border: 8px solid white;
+}
+
+/* highlight at top left of black outline */
+section:after {
+    content: '';
+    width: 105%;
+    height: 105%;
+    border-radius: 50%;
+    display: block;
+    background: transparent;
+    position: absolute;
+    top: -2.5%;
+    left: -2.5%;
+    box-shadow: 0 0 17px rgba(255,255,255,.8);
+}
+
+.label {
+    position: absolute;
+    top: 76px;
+    left: 46%;
+    font-size: 40px;
+    color: red;
+}
+
+.hourhand,
+.secondhand,
+.minutehand {
+    width: 100px;
+    height: 8px;
+    background: #000;
+    position: absolute;
+    top: 156.2px;
+    left: calc(50% - 14px);
+    z-index: 2;
+    transform: rotate(0);
+    transform-origin: 16%;
+    -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+    /*drop-shadow: (12px 12px 7px rgba(0,0,0,0.5));*/
+}
+
+.hourhand:after,
+.secondhand:after,
+.minutehand:after {
+    content: '';
+    background: #000;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    top: -9px;
+    left: 6px;
+    display: none;
+}
+
+.hourhand {
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    box-shadow: -10px 0 10px rgba(0,0,0,.4);
+}
+
+.minutehand {
+    width: 160px;
+    height: 4px;
+    top: 156px;
+    transform-origin: 10%;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+    box-shadow: -10px 10px 10px rgba(0,0,0,.4);
+}
+
+.minutehand:before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    z-index: 99;
+    position: absolute;
+    top: -6.8px;
+    left: 6.8px;
+    box-shadow: -2px -2px 7px rgba(255,255,255,.6);
+}
+
+.minutehand:after {
+    top: -8px;
+}
+
+.secondhand {
+    width: 140px;
+    height: 2px;
+    top: 156px;
+    transform: rotate(-90deg);
+    transform-origin: 11.5%;
+    box-shadow: -10px -10px 10px rgba(0,0,0,.4);
+}
+.secondhand:after {
+    top: -9px;
+}
+
+.hour12,
+.hour1,
+.hour2,
+.hour3,
+.hour4,
+.hour5 {
+    height: 4px;
+    width: 220px;
+    background: transparent;
+    border-left: 28px solid #000;
+    border-right: 28px solid #000;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    /*     transform-origin: right bottom; */
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+/*.hour12 {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    border: none;*/
+/*}*/
+/*.hour12 p {*/
+/*    color: #000*/
+/*}*/
+/*.hour3 {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    border: none;*/
+/*    left: 168px;*/
+/*    height: 260px;*/
+/*    width: 260px;*/
+/*    top: 30px*/
+/*}*/
+/*.hour3 p {*/
+/*    color: #000;*/
+/*    transform: rotate(-90deg);*/
+/*    margin: 0;*/
+/*}*/
+
+.hour1 { transform: rotate(120deg) translate(68px, 120px); }
+
+.hour2 { transform: rotate(150deg) translate(116px, 72px); }
+
+.hour3 { transform: rotate(180deg) translate(136px, 0); }
+
+.hour4 { transform: rotate(210deg) translate(120px, -68px); }
+
+.hour5 { transform: rotate(240deg) translate(68px, -120px); }

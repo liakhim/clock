@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="09fb52fa-24a6-4950-b75e-fc8ef34f778c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ClockFace/ClockFace.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClockFace/ClockFace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Status/Status.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Status/Status.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="2521z7pzOuEEDFIwsIqYsZ7NN09" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../convert-bomb-frontend" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laravel_dev\projects\clock" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09fb52fa-24a6-4950-b75e-fc8ef34f778c" name="Default Changelist" comment="" />
+      <created>1644710626767</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644710626767</updated>
+      <workItem from="1644710630792" duration="5948000" />
+      <workItem from="1644771210343" duration="15357000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1644712660795">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1644712660795" />
+    <state x="468" y="165" key="SettingsEditor" timestamp="1644712645756">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="468" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1644712645756" />
+  </component>
+</project>
